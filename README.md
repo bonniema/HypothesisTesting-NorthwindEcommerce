@@ -4,8 +4,10 @@
 ## Table of contents
 * [Project Overview](#project-overview)
 * [Statistical Methods](#statistical-methods)
-* [Process](#process)
-* [Contact](#contact)
+* [Project Workflow](#project-workflow)
+* [Test Results and Implications](#test-results-and-implications)
+* [Next Steps](#next-steps)
+
 
 ## Project Overview
 Experimental design and hypothesis testing are widely used not only in scientific research but also in the business world. Businesses need to understand whether certain tactics such as promotion offers, new website design have significant impact on the business results. While we are most familiar with parametric statistical tests like Student's T-Test and ANOVA, non-parametric tests are actually more practical because they don't require strict assumptions on normality. The purpose of this project is to utilize different hypothesis tests to answer real world business questions. 
@@ -47,16 +49,7 @@ The data comes from the Northwind Database which is a sample database used by Mi
 
 ![Choose the right test](./images/hypothesistests.png)
 
-## Test Results
-
-- The presence of Discount has significant impact on product quantity. Consumers buy more units per order if there is a discount. 
-However, there is no significant difference in quantity between different discount levels
-- Consumers spend more on Diary products when Discount is present vs No Discount. However, the effect size is small
-Consumers spend more on Beverage category when there is a Discount above 5%
-- Western Europe and Northern America are the strongest markets
-- There is no significant difference in average order revenue in different seasons. Seasonality seems to have no significant impact on AOR of any category. 
-
-## Implication and Next Steps
+## Test Results and Implications
 
 - The presence of Discount leads consumers to buy more quantity per order no matter what levels of discount
 - The presence of Discount drives higher revenue for Dairy category
@@ -64,14 +57,14 @@ Consumers spend more on Beverage category when there is a Discount above 5%
 - Not all regions have the same scale of revenue. They can be managed in tiers (small, medium and large)
 - Seasonality does not have a significant impact on average order revenue
 
-### Next Steps:
+## Next Steps:
 - Test different discount mix and find the optimal point between sales volume and profit
 - Deep dive into the performance (profit, logistic, marketing, etc.) of the larger region groups and make sure resources are optimized 
 - Specify seasonality or sales season for each region and run similar tests
 
-## [@Presentation](https://github.com/bonniema/HypothesisTesting-NorthwindEcommerce/blob/master/HypothesisTesting_Project_Presentation.pptx)
+### [Presentation](https://github.com/bonniema/HypothesisTesting-NorthwindEcommerce/blob/master/HypothesisTesting_Project_Presentation.pptx)
 
-## [@Notebook](https://github.com/bonniema/HypothesisTesting-NorthwindEcommerce/blob/master/HypothesisTesting_Project.ipynb)
+### [Notebook](https://github.com/bonniema/HypothesisTesting-NorthwindEcommerce/blob/master/HypothesisTesting_Project.ipynb)
 
-##[@Check out the blog post of this analysis](https://towardsdatascience.com/non-parametric-tests-in-hypothesis-testing-138d585c3548)
+### [Check out the blog post of this analysis](https://towardsdatascience.com/non-parametric-tests-in-hypothesis-testing-138d585c3548)
 
